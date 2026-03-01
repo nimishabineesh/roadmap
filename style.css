@@ -13,15 +13,11 @@ body{
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
-ul {
-  list-style: none;
-  padding-left: 0;
-}
 li > h2 {
   color: blue;
   margin-bottom: 10px;
 }
-li ul {
+li dl {
   border-left: 3px solid lightgray;
   margin-left: 20px;
   padding-left: 20px;
@@ -30,15 +26,18 @@ li ul {
     background-color: rgb(168, 205, 238);
     margin-right: 500px;
 }
-li ul li {
+li dl dd {
   padding: 12px;
   margin: 8px 0;
   background: white;
   font-weight: bold;
+  color: rgb(65, 55, 55);
 }
 .head h2{
     color: red
 }
 .simple > p {
-  color:grey;
+  color: grey;
+  margin-left:-50px;
+  font-style: italic;
 }
