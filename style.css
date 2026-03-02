@@ -1,13 +1,13 @@
 body{
     font-family: Arial, sans-serif;
 }
-.simple {
+main{
   width: 70%;
   margin: 40px ;
   padding: 20px 40px;
   border-left: 6px solid white;
 }
-.simple > h1 {
+ h1 {
   font-size: 40px;
   border-bottom: 3px solid blue;
   padding-bottom: 10px;
@@ -17,26 +17,28 @@ li > h2 {
   color: blue;
   margin-bottom: 10px;
 }
-li dl {
+li ul {
   border-left: 3px solid lightgray;
   margin-left: 20px;
   padding-left: 20px;
 }
-li dl .blue:hover{
-  background-color: aqua;
+li ul li:hover{
+  background-color: rgb(172, 234, 234);
   cursor: pointer;
 }
-li dl dd {
+li ul li {
   padding: 12px;
+  list-style: none;
   margin: 8px 0;
   background: white;
   font-weight: bold;
   color: rgb(65, 55, 55);
 }
-.head h2{
+#head
+{
     color: red
 }
-.simple > p {
+p {
   color: grey;
   margin-left:-50px;
   font-style: italic;
