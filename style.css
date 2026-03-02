@@ -22,9 +22,9 @@ li dl {
   margin-left: 20px;
   padding-left: 20px;
 }
-.blue{
-    background-color: rgb(168, 205, 238);
-    margin-right: 500px;
+li dl .blue:hover{
+  background-color: aqua;
+  cursor: pointer;
 }
 li dl dd {
   padding: 12px;
